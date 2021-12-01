@@ -1,0 +1,40 @@
+form{
+    margin-top: 3rem;
+    
+}
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color:white;
+    border:0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius:0;
+    
+}
+
+form input:focus{
+    background-color: transparent !important;
+    box-shadow: none!important;
+}   
+
+form input,
+.container::-webkit-input-placeholder{
+    color: white!important;
+}
+.weatherbutton{
+    width: 200px;
+    height: 50px;
+    border:none;
+    color: white;
+    background: linear-gradient(90deg, #cc2b5e,  #753a88);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #ee9ca7;
+    transition: ease-out 0.4s;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.weatherbutton:hover{
+    box-shadow: inset 200px 0 0 0 #ee9ca7;
+}
